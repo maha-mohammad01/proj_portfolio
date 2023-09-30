@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+         
+        <title> second project </title>
+
+        <style>
+          
+     *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to Right,rgb(255, 255, 255) ,rgb(73, 100, 158));
+
+   }
+        
+
+  @-webkit-keyframes flicker {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px #2962ff;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px #2962ff;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px #2962ff;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px #2962ff;
+  }
+}
+
+
+
+
+
+.text-shadow {
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: #1909ca;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 2px 2px 10px #0541e7;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  -webkit-animation: flicker 0.5s ease-in-out infinite alternate;
+          animation: flicker 0.5s ease-in-out infinite alternate;
+}
+
+
+
+
+@keyframes example {
+  0%   {text-shadow: #ffffff;}
+  25%  {text-decoration: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+ 
+}
+
+
+ 
+   header{
+margin-top: 15px;
+display: flex;
+justify-content: right; 
+position: sticky; 
+ top: 10px;
+
+}
+
+#header{
+overflow: hidden;
+margin-top: 0;
+margin-left: 150px;
+width: 100%;
+
+
+}
+
+
+.header a {
+position:sticky;
+display: inline-block;
+color: white;
+text-align:left;
+padding-inline: 20px;  
+text-decoration: none;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+float: right;
+}
+.ph{
+  margin-left: 0;
+ width:auto;
+ float: left;
+ height:auto;
+padding-top: 2%;  
+         }
+
+ #about * {
+justify-content: right;
+padding-top: 200px;
+ 
+}
+
+#about h1 {
+font-size: 48px;
+margin-left: 20%;
+padding: 0;
+line-height: 1;
+font-weight: 700;
+font-family: "Poppins", sans-serif;
+
+
+
+}
+
+#about h1 a,
+#about h1 a:hover {
+    margin-left: 5%;
+color: #fff;
+text-decoration:none;
+display: inline-block;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 80;
+}
+
+#about h2 {
+    padding-top: 0%;
+color: rgba(255, 255, 255, 0.8);
+margin-left:50%;
+text-shadow: #4834a8 ;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#about h2 span {
+color: #fff;
+border-bottom: 2px solid #4834a8;
+
+}
+
+ #aboutme{
+    color: #ffffff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-weight: 300;
+    padding-top: 0%;
+     margin-left: 35%;
+    padding-right: 20px;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+ 
+}
+
+.sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 5px;
+}
+.insta,.linked,.face{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+        padding-left: 150px;
+  
+   
+    
+}
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+position:relative;
+overflow:hidden;
+padding-bottom: 0;
+bottom:0px;
+left:0;
+width:100%;
+font-size: 10px;
+background-color: white;
+margin-bottom: 0px;
+
+}
+
+    
+        </style>
+    </head>
+
+
+    <header>
+    <div id="header" class="header">
+      
+      <div class="header">
+        <a  class="active" href="Contact.html">Contact</a>
+       <a class="active" href="projects.html">Projects</a>
+        <a class="active" href="Qualifications.html">Qualifications</a>
+       <a class="active" href="#.html">Home </a>
+      </div> 
+            </header>
+
+            <body>
+<main>
+
+<div class="main">
+
+
+  <div style="display:block">
+<div class="ph">
+  <img src="proj_portfolio/night.jpg" style="height: 600px;"> 
+ 
+  
+   </div>
+
+
+<div class="about" id="about">
+
+    <h1 class="text-shadow"><a href="projects.html" >MAHA ALKA'ABNEH</a></h1>
+    <br>
+    <h2>I'm a web delovber, <span>from jordan</span> </h2>
+    <br>
+    <h5 id="aboutme">   I am an experienced web developer with a strong background in creating cutting-edge online solutions. 
+      My expertise in coding, design, and problem-solving allows me to craft functional and visually appealing websites.
+       With a proven track record of delivering high-quality projects, 
+      I am committed to pushing the boundaries of web development and delivering exceptional 
+      online experiences.</h5>
+      </div>
+
+</div>
+
+<div class="sm" style="display: flex;">
+    <div class="insta"><a href="https://www.instagram.com/maha_mohammad_ka/"><img src="proj_portfolio/insta.png" style="border-radius: 90px; width: 30px;" ></a></div>
+    <div class="linked"><a href="https://www.linkedin.com/in/maha-mohammad-102497168/"><img src="proj_portfolio/linked1.png" style="border-radius: 90px; width: 30px"></a></div>
+    <div class="face"><a href="https://www.facebook.com/maha.mohammadkaa/"><img src="fproj_portfolio/ace4.png" style="border-radius: 90px; width: 30px"></a></div>
+
+
+</div>
+</main>
+<br>
+<br>
+<br>
+<footer>
+    <div class="footer">
+        <p>mahamohammd &copy 2023;</p>
+        
+        
+        
+    </footer>
+</body>
+</html>
